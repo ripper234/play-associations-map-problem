@@ -1,0 +1,9 @@
+# Application dependencies
+
+require:
+    - play
+    - play -> associations 1.0.1
+
+    - org.hibernate -> hibernate-validator 4.1.0.Final
+    - org.hibernate -> hibernate-core 3.6.8.Final:
+        force: true
